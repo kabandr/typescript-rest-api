@@ -9,6 +9,8 @@ export async function createUserHandler(req: Request, res: Response) {
     return res.send(omit(user.toJSON(), "password"));
   } catch (e) {
     logger.error(e);
-    return res.status(409).send(e.message);
+    if (e instanceof Error) {
+      return res.status(409).send(e.message);
+    }
   }
 }
