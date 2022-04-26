@@ -2,7 +2,14 @@
 
 REST API with Node.js, TypeScript and MongoDB
 
-# Running the App
+# Requirements
 
-`yarn`
-`yarn start`
+Node.js
+npm / yarn
+
+Installation
+
+```
+yarn
+yarn start
+```
