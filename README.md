@@ -21,7 +21,7 @@ REST API with Node.js, TypeScript and MongoDB
 
 ## Concepts
 
-- REST API principals
+- REST API principles
   - CRUD
   - HTTP methods
 - JWT & refresh tokens
