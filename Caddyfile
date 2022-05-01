@@ -1,0 +1,5 @@
+typescript-rest-api.snipd.io {
+    reverse_proxy typescript-rest-api:4000 {
+        header_down Strict-Transport-Security max-age=31536000;
+    }
+}
